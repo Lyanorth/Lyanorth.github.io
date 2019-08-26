@@ -93,3 +93,6 @@ td {
   border: none;
   border-left: 1px solid #fff;
 }
+img {
+  display: block !important;
+}
