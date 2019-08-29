@@ -9,6 +9,8 @@
 
     <!--Description-->
     
+        <meta name="description" content="同一片蓝天🌟">
+    
 
     <!--Author-->
     
@@ -17,7 +19,7 @@
 
     <!-- Title -->
     
-    <title>归档：2019 | 燕燕与小北</title>
+    <title>立刻 | 燕燕与小北</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
@@ -46,8 +48,7 @@
 <body>
 
     <!-- Content -->
-    
-
+    <section class="article-container">
 <!-- Back Home -->
 <a class="nav-back" href="/">
     <i class="fa fa-puzzle-piece"></i>
@@ -58,64 +59,80 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>2019</h1>
+                <div class="post-heading">
+                    <h1>立刻</h1>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            
-                <div class="post-preview archive">
-    <a href="/2019/08/29/08.29/">
-        <h1 class="post-title archive">
-            立刻
-        </h1>
-    </a>
-</div>
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <!-- Post Main Content -->
+            <div class="post-content col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p>同一片蓝天🌟</p>
+<h2 id="more"><a id="more"></a></h2>
+<p>你知道立刻的拼音是什么嘛</p>
+<p><img src="https://i.loli.net/2019/08/29/nOx7y4P8AR15ESm.jpg" alt="微信图片_20190829232432.jpg"></p>
+<p>是我和你🙊</p>
+
  
-            
-                <div class="post-preview archive">
-    <a href="/2019/08/27/08.27-2/">
-        <h1 class="post-title archive">
-            惊喜
-        </h1>
-    </a>
-</div>
- 
-            
-                <div class="post-preview archive">
-    <a href="/2019/08/27/08.27/">
-        <h1 class="post-title archive">
-            初见
-        </h1>
-    </a>
-</div>
- 
-            
-                <div class="post-preview archive">
-    <a href="/2019/08/26/hello-world/">
-        <h1 class="post-title archive">
-            拼图，世界
-        </h1>
-    </a>
-</div>
- 
-            
-            <div class="archive-before-pagination"></div>
-            <ul class="pagiantion">
-    
-    
-</ul>
+                <!-- Meta -->
+                <div class="post-meta">
+                    <hr>
+                    <br>
+                    <div class="post-tags">
+                        
+                    </div>
+                    <div class="post-date">
+                        2019 年 08 月 29 日
+                    </div>
+                </div>
+            </div>
+
+            <!-- Comments -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <!-- Disqus Comments -->
+
+
+            </div>
         </div>
     </div>
-</div>
+</article>
+</section>
 
+<!-- Image viewer-->
+
+    <!-- Custom picture view-->
+    <link href="/css/viewer.min.css" rel="stylesheet" />
+    <script
+      src="/js/viewer.min.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    
+    <script type="text/javascript">
+      // set image viewer
+      Viewer.setDefaults({
+        zoomRatio: [0.5],
+        navbar: false,
+        toolbar: false,
+        button: false,
+        title: [2, (image, imageData) => `${image.alt}`],
+        show: function() {
+          this.viewer.zoomTo(0.5);
+        }
+      });
+      var imageList = document.getElementsByTagName("img");
+      Array.prototype.forEach.call(imageList, element => {
+        var viewer = new Viewer(element);
+      });
+    </script>
+
+    
     <!-- Scripts -->
     <script type="text/javascript">
     console.log("© zchen9 🙋 2015-" + new Date().getFullYear());
