@@ -694,7 +694,7 @@ button.navbar-toggle .icon-bar {
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
-	background-color: #151515;
+	background-color: #ffffff;
 	-webkit-transition: all ease 0.2s;
 	-moz-transition: all ease .2s;
 	-o-transition: all ease .2s;
@@ -851,7 +851,7 @@ span.sb-caret { /* Caret Down */
 	padding-top: 0;
 }
 #hero h2 {
-	color: #151515;
+	color: #ffffff;
 	margin-bottom: 20px;
 	display: inline-block;
 	padding: 14px;
@@ -3084,7 +3084,7 @@ button.send{
 * Global footer, (all pages)
 ******************************************************* */
 footer {
-	padding:5% 0 0;
+	padding:10px 0 0;
 	background:#151515;
 	z-index: 9;
 	position: relative;
@@ -3341,6 +3341,9 @@ footer .footer_bottom {
 
 nav.pagination {
 	display: block;
+}
+.center-me div h2 {
+	color: #ffffff;
 }
 @charset "utf-8";
 /* CSS Document */
