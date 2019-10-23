@@ -837,10 +837,10 @@ span.sb-caret { /* Caret Down */
 	padding-top: 0;
 }
 #hero h2 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
 	color: #ffffff;
-	margin-bottom: 20px;
-	display: inline-block;
-	padding: 14px;
 }
 #hero p {
 	color: #333;
